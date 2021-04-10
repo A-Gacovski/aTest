@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>register page</title>
+             <!-- css link--> 
+             <link rel="stylesheet" href="CSS_for_site/polarino_main_page.css" />  
+    </head>
+    <body>
+        <!-- right sidebar -->
+        <aside>
+            <nav class="align-right">
+                    <!-- logo down-right and drive -->
+                    <div class="logo">
+                        <img src="logo_polarino/Polarino_logo_1.png" alt="Logo">
+                        <span id="rr">&reg;</span>
+                    </div>
+
+                    <!-- space for logo -->     
+                    <div class="space"></div>
+                
+
+                <!-- navigation middle-right -->
+                <section id="navigation">
+                    <p><span>Navigation</span></p>
+                    <span>Главна web страна</span>
+                    <button><a href="polarino_main_page.html">Home</a></button>
+                    <br />
+                    <span>Постоечки корисник</span>
+                    <button><a href="log-in.html">Log-in</a></button>
+                </section>
+            </nav>
+        </aside>
+        
+        <main class="main-of-register">
+
+            <!--Table -->
+            <table border="1" cellpadding="2" cellspacing="">
+                <caption>Формулар за Регистрација</caption>
+                <caption>Ве молиме пополнете го Формуларот</caption>
+                <caption>потоа кликнете "ПОТВРДИ"</caption>
+                    
+                    <!--Full Contact Form-->
+                    <form action="" method="">
+        
+                        <tbody>
+                            <!--First Row-->
+                           <tr>
+                               <td>
+                                   <label for="firstname">Име</label>
+                               </td>
+                               <td>
+                                   <input type="text" name="firstname" id="firstname" placeholder="Име">
+                               </td>
+                           </tr>
+                             <!--Second Row-->
+                           <tr>
+                               <td>
+                                   <label for="lastname">Презиме</label>
+                               </td>
+                               <td>
+                                   <input type="text" name="lastname" id="lastname" placeholder="Презиме">
+                               </td>
+                           </tr>
+                            <!--Third Row-->
+                            <tr>
+                                <td>
+                                    <label for="country">Држава</label>
+                                </td>
+                                <td>
+                                    <select name="country" id="country">
+                                        <option value="" selected disabled>Држава од која доаѓате</option>
+                                        <option value="Macedonia">Македонија</option>
+                                        <option value="Serbia">Србија</option>
+                                        <option value="Greece">Грција</option>
+                                        <option value="Albania">Албанија</option>
+                                        <option value="Bulgaria">Бугарија</option>
+                                        <option value="GBR">Велика Британија</option>
+                                        <option value="US">САД</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <!--Fourth Row-->
+                            <tr>
+                                <td>
+                                    <label for="address">Назив на Вашата Компанија</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="companyaddress" id="address" placeholder="Внеси назив"/>
+                                </td>
+                            </tr>
+                            <!--Fifth Row-->
+                            <tr>
+                                <td>
+                                    <label for="website">Website на компанијата</label>
+                                </td>
+                                <td>
+                                    <input type="url" id="website"name="website" placeholder="Website"/>
+                                </td>
+                            </tr>
+                             <!--Sixth Row-->
+                            <tr>
+                                <td>
+                                    <label for="email">E-mail адреса</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="email" id="email" placeholder="Example@company.com"/>
+                                </td> 
+                            </tr>
+                             <!--Seventh Row-->
+                             <tr>
+                                <td>
+                                    <p>Дали некогаш сте ги користеле</p>
+                                    <p>производите и услугите на ПОЛАРИНО</p>  
+                                </td>
+                                <td>
+                                    <input type="radio" id="yes" name="yes/no" value="Yes"/>
+                                    <label for="yes">Да</label>
+                                    <input type="radio" id="no" name="yes/no" value="No"/>
+                                    <label for="no">Не</label>
+                                </td>
+                             </tr>  
+                             
+                             <!--Eighth Row-->
+                             <tr>
+                                 <td>
+                                     <label for="text">Повеќе информации</label>
+                                 </td>
+                                 <td>
+                                    <textarea name="text" id="text" cols="30" rows="8"></textarea>
+                                </td>
+                             </tr>
+                              <!--Nineth Row-->
+                              <tr>
+                                <td align="right" colspan="2">
+                                    <button  class="submit" type="submit">ПОТВРДИ</button>
+                                </td>
+                              </tr>
+                        </tbody>
+                    </form>
+        
+                    <tfoot>
+                                <th><small> All rights reserved</small></th>
+                                <th><small>Copyright &copy; 2020 POLARINO</small></th>
+                    </tfoot>
+            </table>
+        </main>
+    </body>     
